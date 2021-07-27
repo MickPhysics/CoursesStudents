@@ -1,32 +1,33 @@
 package com.s2e.app;
 
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.equalTo;
-
-import java.io.IOException;
-
-import org.apache.http.HttpResponse;
-import org.apache.http.HttpStatus;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.client.methods.HttpUriRequest;
-import org.apache.http.client.methods.RequestBuilder;
-import org.apache.http.entity.ContentType;
-import org.apache.http.entity.StringEntity;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
+//import static org.hamcrest.MatcherAssert.assertThat;
+//
+//import static org.hamcrest.Matchers.equalTo;
+//
+//import java.io.IOException;
+//
+//import org.apache.http.HttpResponse;
+//import org.apache.http.HttpStatus;
+//import org.apache.http.client.ClientProtocolException;
+//import org.apache.http.client.methods.HttpGet;
+//import org.apache.http.client.methods.HttpPost;
+//import org.apache.http.client.methods.HttpUriRequest;
+//import org.apache.http.client.methods.RequestBuilder;
+//import org.apache.http.entity.ContentType;
+//import org.apache.http.entity.StringEntity;
+//import org.apache.http.impl.client.HttpClientBuilder;
+//import org.junit.jupiter.api.Test;
+//import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.Gson;
-import com.s2e.app.model.Student;
-import com.s2e.app.repository.StudentRepository;
-
-import static org.junit.Assert.*;
+//import com.fasterxml.jackson.core.JsonProcessingException;
+//import com.fasterxml.jackson.databind.ObjectMapper;
+//import com.google.gson.Gson;
+//import com.s2e.app.model.Student;
+//import com.s2e.app.repository.StudentRepository;
+//
+//import static org.junit.Assert.*;
 
 @SpringBootTest
 class ApplicationTests {
